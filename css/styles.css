@@ -107,12 +107,16 @@ body {
 }
 
 hr {
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
+  /* yoon 메인 특징*/
+  margin: 3rem 0;
   color: inherit;
   border: 0;
   border-top: 1px solid;
   opacity: 0.25;
 }
+
+
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -11015,9 +11019,10 @@ footer.footer .social-link:hover {
   width: 100%;
   height: auto;
   padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
-  background-position: center center;
+  /* padding-bottom: 8rem; yoon*/
+  background: linear-gradient(90deg, white 15%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  /* background-position: center center; yoon*/
+  background-position: 80% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11111,3 +11116,23 @@ footer.footer .social-link:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+/* yoon */
+.imgcircle {
+  border-radius: 50%;
+}
+
+.toolset{
+  height: 70px;
+  background: url(../assets/img/toolset_lg.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+@media (max-width: 360px) {
+.toolset{
+    height: 100px;
+    background: url(../assets/img/toolset_sm.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+  }
+}
