@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1D809F;
+  --bs-primary: #fd7e14;
   --bs-secondary: #ecb807;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -78,6 +78,10 @@
   --bs-link-hover-color: #222222;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fbf1cd;
+}
+
+.bs-primary{
+  color: var(--bs-primary);
 }
 
 *,
@@ -11128,7 +11132,11 @@ footer.footer .social-link:hover {
   background-size: 70%;
 }
 
-@media (max-width: 360px) {
+.aniseconed{
+  z-index: 3;
+}
+
+@media (max-width: 460px) {
 .toolset{
     height: 100px;
     background: url(../assets/img/toolset_sm.png);
@@ -11136,3 +11144,5 @@ footer.footer .social-link:hover {
     background-size: 60%;
   }
 }
+
+
