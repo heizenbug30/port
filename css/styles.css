@@ -11134,6 +11134,11 @@ footer.footer .social-link:hover {
   z-index: 3;
 }
 
+.mobile img{
+  width:90%;
+  margin-bottom: 1.2rem;
+}
+
 @media (max-width: 460px) {
 .toolset{
     height: 100px;
