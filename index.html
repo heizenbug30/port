@@ -131,33 +131,38 @@
           </div>
         </section>
 
-          <!-- 애니메이션-->
-          <section class="content-section bg-dark">   
+        <!-- 애니메이션-->
+        <section class="content-section bg-dark">   
           <div class="container px-4 px-lg-5 text-white text-center">
 
-            <h2>활기를 불어 넣어 줄 애니메이션과 <br>모션도 포기할 수 없죠</h2>
-            <p><mark>chat GPT</mark> · gen-3 · 3D(spline)</p>
+            <h2>생기를 불어 넣어 줄 애니메이션과 <br>모션도 포기할 수 없죠</h2>
+            <p><mark>chat GPT</mark> · gen-3 · 3D(spline) · adobe firefly</p>
             <div class="row justify-content-center">            
-              <div class="col-md-6">
-                  <div class="d-block d-none d-md-block">
-                      <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.36/build/spline-viewer.js"></script>
-                     <spline-viewer loading-anim-type="spinner-small-dark" class="anifist img-fluid" url="https://prod.spline.design/h2gIHU3wL3Ak44Gn/scene.splinecode"></spline-viewer>  
-                  </div>  
-                <!--스플라인 모바일--> 
-                <source src="./assets/img/spline.mp4" type="video/mp4" autoplay muted loop / >
-                <img class="img-fluid" src="./assets/img/prompt.png" alt=""> 
-              </div>
-              <div class="col-md-5 aniseconed pt-5">
+              <div class="col-md-5 aniseconed pt-7">
+                <!-- 스플라인 pc-->
+                <div class="d-none d-md-block">
+                  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.36/build/spline-viewer.js"></script>
+                  <spline-viewer loading-anim-type="spinner-small-dark" class="img-fluid anifist d-block" url="https://prod.spline.design/h2gIHU3wL3Ak44Gn/scene.splinecode"></spline-viewer>            
+                </div>
+                <!-- 스플라인 모바일-->
+                <div class="d-sm-none">
                   <video class="bg-video__content img-fluid" autoplay muted loop controls width="400">
-                    <source src="./assets/img/1편최종.mp4" type="video/mp4" />
-                    <source src="img/video.webm" type="video/webm" />
+                    <source src="./assets/img/spline.mov" type="video/webm" />
                   </video>
-                  <img class="img-fluid pl-5" src="./assets/img/레터링.png" width="80%"> 
+                </div>
+                <img class="img-fluid pl-5 pt-3" src="./assets/img/레터링.png" width="100%"> 
+              </div>
+
+              <div class="col-md-5 aniseconed ">
+                <img class="img-fluid d-block pt-5" src="./assets/img/prompt.png" alt=""> 
+                <video class="bg-video__content img-fluid" autoplay muted loop controls width="400">
+                  <source src="./assets/img/1편최종.mp4" type="video/webm" />
+                </video>
               </div>
             </div>
 
           </div>
-          </section>
+        </section>
 
           <!-- 푸터-->  
           <footer class="footer">
