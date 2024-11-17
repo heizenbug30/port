@@ -227,6 +227,10 @@
   background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-gray{
+  background-color: var(--bs-gray-400)
+}
+
 .bg-transparent {
   --bs-bg-opacity: 1;
   background-color: transparent !important;
@@ -11135,8 +11139,12 @@ footer.footer .social-link:hover {
 }
 
 .mobile img{
-  width:90%;
+  width:360px;
   margin-bottom: 1.2rem;
+}
+
+.web img{
+  padding: 1rem 0;
 }
 
 @media (max-width: 460px) {
