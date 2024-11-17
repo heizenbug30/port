@@ -228,7 +228,7 @@
 }
 
 .bg-gray{
-  background-color: var(--bs-gray-400)
+  background-color: var(--bs-gray-400) !important;
 }
 
 .bg-transparent {
